@@ -117,12 +117,76 @@ if (isset($samplePostForm)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+            *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: 1.3rem;
+    }
+
+    body{
+        background: antiquewhite;
+        display:flex;
+        flex-direction: column;
+    }
+    form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin-top: 200px;
+    }
+
+    input{
+        width: 500px;
+        border: none;
+        min-height: 50px; 
+        border-radius: 15px;
+    }
+    
+    button{
+        width: 500px;
+        border: none;
+        min-height: 50px;         
+        border-radius: 15px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: 3em;
+    }
+    ul{
+        list-style:none;
+        color:red;
+        padding-bottom: 15px;
+    }
+    li{
+        font-size: 0.8rem;
+    }
+    div{
+        display:flex;
+        flex-direction: column;
+    }
+    a{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        padding:50px;
+        text-decoration: none;
+    }
+    </style>
 </head>
 <body>
 
     <!-- AJOUTER UNE BARRE DE NAVIGATION -->
     
-    
+
     <!-- ... -->
 
 
