@@ -12,7 +12,7 @@
 
 
 
-   <middle>
+<middle>
     <button onclick="location.href='contact.php'">Contact</button>
     <button onclick="location.href='shop.php'">Produits</button>
 </middle>
